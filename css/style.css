@@ -1,0 +1,19 @@
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.main-shape {
+    height: 65vh;
+    width: 100%;
+    text-align: center;
+}
+
+#shape {
+    height: 600px;
+    width: 650px;
+    margin: 3rem auto;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+    background: yellow;
+}
