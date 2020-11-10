@@ -1,0 +1,23 @@
+.container {
+    width: 75%;
+    height: 65vh;
+    margin: 0 auto;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.buttons-box ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    list-style-type: none;
+    justify-content: center;
+}
